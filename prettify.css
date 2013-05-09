@@ -1,5 +1,8 @@
 /* Pretty printing styles. Used with prettify.js. */
-/* Sublime Text 2 Monokai theme by Raphael DDL Oliveira */
+/* 
+Sublime Text 2 Monokai theme for Google Prettify by Raphael DDL Oliveira
+https://github.com/RaphaelDDL/google-prettify-monokai-theme/
+*/
 
 pre .str, code .str { color: #e6db5a; } /* string */
 pre .kwd, code .kwd { color: #66d9ef; } /* keyword */
