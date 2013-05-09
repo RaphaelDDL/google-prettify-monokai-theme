@@ -1,17 +1,17 @@
 /* Pretty printing styles. Used with prettify.js. */
 /* Sublime Text 2 Monokai theme by Raphael DDL Oliveira */
 
-pre .str, code .str { color: #e6db5a; } /* string  - green */
-pre .kwd, code .kwd { color: #66d9ef; } /* keyword - dark pink */
-pre .com, code .com { color: #75715e; font-style: italic; } /* comment - gray */
-pre .typ, code .typ { color: #66d9ef; } /* type - light blue */
-pre .lit, code .lit { color: #ae81ff; } /* literal - blue */
-pre .pun, code .pun { color: #fff; } /* punctuation - white */
-pre .pln, code .pln { color: #fff; } /* plaintext - white */
-pre .tag, code .tag { color: #f92672; } /* html/xml tag    - light blue */
-pre .atn, code .atn { color: #a6e22a; } /* html/xml attribute name  - khaki */
-pre .atv, code .atv { color: #e6db74; } /* html/xml attribute value - green */
-pre .dec, code .dec { color: #ae81ff; } /* decimal - blue */
+pre .str, code .str { color: #e6db5a; } /* string */
+pre .kwd, code .kwd { color: #66d9ef; } /* keyword */
+pre .com, code .com { color: #75715e; font-style: italic; } /* comment */
+pre .typ, code .typ { color: #66d9ef; } /* type */
+pre .lit, code .lit { color: #ae81ff; } /* literal */
+pre .pun, code .pun { color: #fff; } /* punctuation */
+pre .pln, code .pln { color: #fff; } /* plaintext */
+pre .tag, code .tag { color: #f92672; } /* html/xml tag */
+pre .atn, code .atn { color: #a6e22a; } /* html/xml attribute name */
+pre .atv, code .atv { color: #e6db74; } /* html/xml attribute value */
+pre .dec, code .dec { color: #ae81ff; } /* decimal */
 
 pre.prettyprint, code.prettyprint {
 	background-color: #272822;
