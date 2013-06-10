@@ -11,4 +11,4 @@ https://code.google.com/p/google-code-prettify/
 The theme is best for HTML codes.
 For CSS, JS and others might not feel like Sublime Text 2's Monokai.
 
-I'm still trying to figure out a way to declare a specific .css file for each language, so I can make other monokai themes respecting ST2's each language color.
+Will make an addition to the .CSS to support the `class="lang-*"` that prettify supports, for correct colouring CSS and JS just like ST's language colors.
