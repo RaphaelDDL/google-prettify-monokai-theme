@@ -3,7 +3,7 @@ google-prettify-monokai-theme
 
 An attempt to make a Google Code Prettify theme that looks like Sublime Text 2 Monokai Theme.
 
-Prettify.js can be downloaded from here:
+google-code-prettify (prettify.js) can be downloaded from here:
 https://code.google.com/p/google-code-prettify/
 
 ---
