@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Google-prettify-monokai-theme : An attempt to make a Google Code Prettify theme that looks like Sublime Text Monokai Theme (for HTML Syntax only)" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Google-prettify-monokai-theme</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/RaphaelDDL/google-prettify-monokai-theme">View on GitHub</a>
+
+          <h1 id="project_title">Google-prettify-monokai-theme</h1>
+          <h2 id="project_tagline">An attempt to make a Google Code Prettify theme that looks like Sublime Text Monokai Theme (for HTML Syntax only)</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/RaphaelDDL/google-prettify-monokai-theme/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/RaphaelDDL/google-prettify-monokai-theme/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="google-prettify-monokai-theme" class="anchor" href="#google-prettify-monokai-theme"><span class="octicon octicon-link"></span></a>google-prettify-monokai-theme</h1>
+
+<p>An attempt to make a Google Code Prettify theme that looks like Sublime Text's Monokai Theme.</p>
+
+<p>google-code-prettify (prettify.js) can be downloaded from here:
+<a href="https://code.google.com/p/google-code-prettify/">https://code.google.com/p/google-code-prettify/</a></p>
+
+<blockquote>
+<p>The theme is best for HTML codes.
+For CSS, JS and others might not feel like Sublime Text's Monokai, mostly due how pretiffy sort the tags (see more below in 'The Problem with CSS')</p>
+</blockquote>
+
+<hr><h2>
+<a name="examples" class="anchor" href="#examples"><span class="octicon octicon-link"></span></a>Examples</h2>
+
+<h4>
+<a name="html" class="anchor" href="#html"><span class="octicon octicon-link"></span></a>HTML</h4>
+
+<p><img src="https://f.cloud.github.com/assets/1087109/1523578/0b20d106-4bb8-11e3-9b8e-7aac025a99e2.PNG" alt="html"></p>
+
+<h4>
+<a name="js" class="anchor" href="#js"><span class="octicon octicon-link"></span></a>JS</h4>
+
+<p><img src="https://f.cloud.github.com/assets/1087109/1523579/0d9d0300-4bb8-11e3-85be-74299f221687.PNG" alt="js"></p>
+
+<h4>
+<a name="css" class="anchor" href="#css"><span class="octicon octicon-link"></span></a>CSS</h4>
+
+<p><img src="https://f.cloud.github.com/assets/1087109/1523580/0fa3258a-4bb8-11e3-8042-65c1042cb79e.PNG" alt="css"></p>
+
+<hr><h4>
+<a name="the-problem-with-css" class="anchor" href="#the-problem-with-css"><span class="octicon octicon-link"></span></a>The Problem with CSS:</h4>
+
+<p>It is impossible to have CSS colored to match Monokai Theme.
+Element tags, id and class selectors are all treated as <code>plain</code> by Prettify.</p>
+
+<p>Example:</p>
+
+<pre><code>div#id.class &gt; ul li[class*="string"] {color: #f00;}
+</code></pre>
+
+<p>According to Monokai, had to be like this:</p>
+
+<p><img src="https://f.cloud.github.com/assets/1087109/1523583/127745c0-4bb8-11e3-9223-5f08a71f442e.PNG" alt="csstobe"></p>
+
+<p>On prettify, almost everything is 'plain', therefore everything is of same color, becoming that boring colorless box. Shame on you prettify.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Google-prettify-monokai-theme maintained by <a href="https://github.com/RaphaelDDL">RaphaelDDL</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
