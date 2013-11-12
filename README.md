@@ -1,36 +1,47 @@
 google-prettify-monokai-theme
 ==============================
 
-An attempt to make a Google Code Prettify theme that looks like Sublime Text 2 Monokai Theme.
+An attempt to make a Google Code Prettify theme that looks like Sublime Text's Monokai Theme.
 
 google-code-prettify (prettify.js) can be downloaded from here:
 https://code.google.com/p/google-code-prettify/
 
 The theme is best for HTML codes.
-For CSS, JS and others might not feel like Sublime Text 2's Monokai.
+For CSS, JS and others might not feel like Sublime Text's Monokai, mostly due how pretiffy sort the tags _ (see more below) _
 
 ---
 
-## To do:
-An addition to the .CSS to support the `class="lang-*"` that prettify supports, for correct colouring CSS and JS just like ST's language colors.
+## Examples
 
----
 
-**Update 2013-06-24:**
-Impossible to have CSS colored to match Monokai Theme.
+#### HTML
+
+![html](https://f.cloud.github.com/assets/1087109/1523578/0b20d106-4bb8-11e3-9b8e-7aac025a99e2.PNG)
+
+#### JS
+
+![js](https://f.cloud.github.com/assets/1087109/1523579/0d9d0300-4bb8-11e3-85be-74299f221687.PNG)
+
+
+
+#### CSS
+
+![css](https://f.cloud.github.com/assets/1087109/1523580/0fa3258a-4bb8-11e3-8042-65c1042cb79e.PNG)
+
+
+----
+
+####Problem with CSS:
+
+It is impossible to have CSS colored to match Monokai Theme.
 Element tags, id and class selectors are all treated as `plain` by Prettify.
 
 Example:
 
     div#id.class > ul li[class*="string"] {color: #f00;}
 
-According to Monokai, these are the color:
-- `div`, `ul` and `li` are red/pink;
-- `#id.class` and `class*` are green;
-- `"string"` is yellow;
-- `color` is blue;
-- `#f00` is purple;
-- puntuaction is white;
+According to Monokai, had to be like this:
 
-On prettify, except by `"string"` and `color: #f00;`, everything else is 'plain', therefore everything is of same color.
-Shame on you prettify.
+![csstobe](https://f.cloud.github.com/assets/1087109/1523583/127745c0-4bb8-11e3-9223-5f08a71f442e.PNG)
+
+On prettify, almost everything is 'plain', therefore everything is of same color, therefore becoming that boring colorless box. Shame on you prettify.
