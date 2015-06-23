@@ -1,4 +1,4 @@
-Tip: Use [highlight.js](https://github.com/isagalaev/highlight.js) instead. It has "monokai_sublime" theme and better highlighting.
+Tip: Use [highlight.js](https://github.com/isagalaev/highlight.js) instead. It has "monokai_sublime" theme and better highlighting than prettify.
 
 ---
 
