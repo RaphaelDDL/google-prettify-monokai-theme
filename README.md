@@ -1,3 +1,7 @@
+Tip: Use [highlight.js](https://github.com/isagalaev/highlight.js) instead. It has "monokai_sublime" theme and better highlighting.
+
+---
+
 [google-prettify-monokai-theme](http://raphaelddl.github.io/google-prettify-monokai-theme/)
 ==============================
 
