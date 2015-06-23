@@ -1,6 +1,6 @@
 /* ========================
 //#google-prettify-monokai-theme
-//#Version: 0.2
+//#Version: 0.3
 //#Author: RaphaelDDL
 //#Github: https://github.com/RaphaelDDL/google-prettify-monokai-theme/
 //#MIT LICENSE
@@ -28,6 +28,7 @@ pre.prettyprint, code.prettyprint {
 	-ms-border-radius: 8px;
 	-khtml-border-radius: 8px;
 	border-radius: 8px;
+	font-family: consolas, menlo, courier, monospace;
 }
 
 pre.prettyprint {
